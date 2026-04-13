@@ -4,7 +4,8 @@
     "homepage": "",
     "bin": [
         [
-            "spottle"
+            "spottle",
+            "spottle.exe"
         ]
     ],
     "url": "https://releases.jamestombleson.com/releases/spottle/3.0.4/spottle_Windows_x86_64.zip",
