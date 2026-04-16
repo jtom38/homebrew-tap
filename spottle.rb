@@ -6,7 +6,7 @@ class Spottle < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://releases.jamestombleson.com/releases/spottle/3.1.0/spottle_Darwin_x86_64.tar.gz"
-      sha256 "77e1fa2ba050d0404a39c7cff5076b8e859cb085ed5e54c5718737aa81c2aecd"
+      sha256 "efa7f7bb5d2d8e01f7588d33d9bcee2e823edb6a1c0f30a19413dcba1e29fc97"
 
       def install
         bin.install "spottle"
@@ -14,7 +14,7 @@ class Spottle < Formula
     end
     if Hardware::CPU.arm?
       url "https://releases.jamestombleson.com/releases/spottle/3.1.0/spottle_Darwin_arm64.tar.gz"
-      sha256 "c9f95c1ef7c99cc7b05c1e8bebdbbad7435ff62dfd1837b388e7034f8ad67acf"
+      sha256 "31beff69d16c15c5a74ecc96b3f18b698a6caf7fcd18e7f47d1e9c7b8f30200d"
 
       def install
         bin.install "spottle"
@@ -26,7 +26,7 @@ class Spottle < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://releases.jamestombleson.com/releases/spottle/3.1.0/spottle_Linux_x86_64.tar.gz"
-        sha256 "4c3a9b6fc4910a537c1c6175f21f5731475f856d7c04c83a336fd82a47993caa"
+        sha256 "fa5126ce8505cacf6e755505cbe3f56d8007bb5779676b67ac3ee4ff5630f66b"
 
         def install
           bin.install "spottle"
@@ -36,7 +36,7 @@ class Spottle < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://releases.jamestombleson.com/releases/spottle/3.1.0/spottle_Linux_arm64.tar.gz"
-        sha256 "a011c76d700740c31d8405d91517ef47388944791af6724b142063e2a1a69c03"
+        sha256 "cfe3c73487b3bbadbe6e3d60ea1f00480741050c5394c76dfe0f577e8f7122c2"
 
         def install
           bin.install "spottle"
