@@ -1,7 +1,7 @@
 class Spottle < Formula
   desc "Music File Organizer"
   homepage ""
-  version "3.1.2"
+  version "3.2.0"
 
   on_macos do
     if Hardware::CPU.intel?
