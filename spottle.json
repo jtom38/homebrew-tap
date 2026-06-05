@@ -1,11 +1,11 @@
 {
-    "version": "3.1.2",
+    "version": "3.2.1",
     "description": "Music File Organizer",
     "homepage": "",
     "bin": "spottle.exe",
-    "url": "https://releases.jamestombleson.com/releases/spottle/3.2.0/spottle_Windows_x86_64.zip",
-    "hash": "1d19ce374db0ecd2176c0ab4babeccf9052d5762ba0467558cbbec311f459c1a",
+    "url": "https://releases.jamestombleson.com/releases/spottle/3.2.1/spottle_Windows_x86_64.zip",
+    "hash": "f4cb14847b10c57cbf4c2dd49f5499543e73e6ed564ad68c448782855fef7b8e",
     "autoupdate": {
-        "url": "https://releases.jamestombleson.com/releases/spottle/3.2.0/spottle_Windows_x86_64.zip"
+        "url": "https://releases.jamestombleson.com/releases/spottle/3.2.1/spottle_Windows_x86_64.zip"
     }
 }
